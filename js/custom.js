@@ -24,5 +24,5 @@ $('ul.nav li.dropdown').hover(function() {
 
 
 $(window).resize(function() {
-    $('#home').height($(window).height()-70);
+    $('#home').height($(window).height());
 }).resize();
